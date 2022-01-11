@@ -1,23 +1,23 @@
 /**
  * @name Dr Pepper
  * @version 1
- * @description i dont know
+ * @description ur mom
  * @author Bumi
  * @source https://github.com/Bumiii/drpepper
  */
 /*--------------IMPORTS------------- */
-@import url(https://raw.githack.com/schnensch0/zelk/main/main.css);
+@import url(https://raw.githack.com/bumiii/drpepper/main/main.css);
 @import url(https://discord-custom-covers.github.io/usrbg/dist/usrbg.css);
 @import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css);
 
 /*--------------COLORS---------------*/
 /*------remove / and * to apply------*/
-/* @import url(https://raw.githack.com/schnensch0/zelk/main/colors/blue.css); */
-@import url(https://raw.githack.com/schnensch0/zelk/main/colors/green.css);
-/* @import url(https://raw.githack.com/schnensch0/zelk/main/colors/gray.css); */
-/* @import url(https://raw.githack.com/schnensch0/zelk/main/colors/orange.css); */
-/* @import url(https://raw.githack.com/schnensch0/zelk/main/colors/purple.css); */
-/* @import url(https://raw.githack.com/schnensch0/zelk/main/colors/red.css); */
+/* @import url(https://raw.githack.com/bumiii/drpepper/main/colors/blue.css); */
+/* @import url(https://raw.githack.com/bumiii/drpepper/main/colors/green.css); */
+/* @import url(https://raw.githack.com/bumiii/drpepper/main/colors/gray.css); */
+/* @import url(https://raw.githack.com/bumiii/drpepper/main/colors/orange.css); */
+/* @import url(https://raw.githack.com/bumiii/drpepper/main/colors/purple.css); */
+/* @import url(https://raw.githack.com/bumiii/drpepper/main/colors/red.css); */
 
 /*-------------VARIABLES-------------*/
 :root {
@@ -34,6 +34,12 @@
   --border-radius-2: 8px;
 }
 
+@import url("https://rsms.me/inter/inter.css");
+.peopleColumn-29fq28,
+.peopleListItem-2nzedh {
+  background-color: var(--background-friends);
+}
+
 /*-----------CUSTOM COLORS-----------*/
 /*-------------DARK MODE-------------*/
 /*---------------BASIC---------------*/
@@ -41,6 +47,7 @@
   --accent-color: #bde6fb;
   --background-1: #171d20;
   --background-2: #1e2529;
+  --tester: #ff090d;
   --background-accent: #1e2529;
   --border-color: #273034;
 }
@@ -56,6 +63,7 @@
   --background-floating: var(--background-1);
   --background-mentioned: #bde6fb10;
   --background-mentioned-hover: #bde6fb15;
+  --background-friend: var(var(--tester));
   /* modifiers */
   --background-modifier-hover: #262e33;
   --background-modifier-active: #495a63;
